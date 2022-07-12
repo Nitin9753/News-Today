@@ -1,0 +1,23 @@
+.image-div img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.news-content {
+    width: 100%;
+}
+
+@media (max-width:800px) {
+    .news-container {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
